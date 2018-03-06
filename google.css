@@ -79,42 +79,77 @@ opacity: 0.7;
 }
 
 #logo {
-  height: 233px;
+  height: 92px;
   width: 100%;
   position: relative;
-  top: 89px;
 }
 
 #g-image {
-  position: absolute;
-  bottom: 32px;
-  left: 40%;
+bottom: 0px;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 #search-buttons{
   position: relative;
-  margin-top: 70px;
-  height: 200px;
+  margin-top: 0px;
+  height: 100px;
   display: grid;
-  align-items: center;
 }
 #search{
-  position: absolute;
   width: 484px;
   height: 44px;
   box-shadow: 0px 3px 7px 1px #d0d0d0;
+  margin: auto;
+  border: 1px #d0d0d0 solid;
 
 }
 
-input {
+#searchbar {
   background-color: white;
   padding: 0px;
-  width: 484px;
+  width: 460px;
   height: 44px;
-  border: 1px #d0d0d0 solid;
   opacity: 1;
   color: black;
+  margin-left: 10px;
+  border: none;
 }
 form {
   padding: 0px;
 }
+
+#logo-seach {
+  height: 400px;
+  width: 100%;
+  position: absolute;
+  top: 170px;
+  vertical-align: middle;
+}
+
+#sbuttons {
+  margin-top: 18px;
+  height: 58px;
+  /* margin:auto 0; */
+  text-align: center;
+}
+
+#googles, #lucky {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F3F3F3;
+  height: 34px;
+  border: 1px solid #F3F3F3;
+  color: #7D7D7D;
+  letter-spacing: 0.0003em;
+  font-size: 0.6em;
+  font-weight: bold;
+  padding: 0 16px 0 16px;
+}
+
+#googles:hover, #lucky:hover {
+  border: 1px solid #C6C6C6;
+  color: #222222;
+}
+
