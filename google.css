@@ -1,3 +1,5 @@
+
+
 a {
   text-decoration: none;
   color: black;
@@ -93,7 +95,7 @@ margin-right: auto;
 
 #search-buttons{
   position: relative;
-  margin-top: 0px;
+  margin-top: 10px;
   height: 100px;
   display: grid;
 }
@@ -121,7 +123,7 @@ form {
 }
 
 #logo-seach {
-  height: 400px;
+  height: 215px;
   width: 100%;
   position: absolute;
   top: 170px;
@@ -133,6 +135,7 @@ form {
   height: 58px;
   /* margin:auto 0; */
   text-align: center;
+  padding-bottom: 10px;
 }
 
 #googles, #lucky {
@@ -153,3 +156,49 @@ form {
   color: #222222;
 }
 
+#search:hover{
+  box-shadow: 0px 3px 10px 5px #d0d0d0;
+}
+
+#footer {
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #F2F2F2;
+  border-top: 1px solid #E4E4E4;
+  border-bottom: 1px solid #E4E4E4;
+  margin-bottom: 0;
+}
+
+#footer-left {
+  height: 40px;
+  width: auto;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding-left: 30px;
+  word-spacing: 27px;
+  
+}
+
+#footer-right {
+  height: 40px;
+  width: auto;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding-right: 30px;
+  word-spacing: 27px; 
+}
+
+.bftext {
+  position: relative;
+  top: 10px;
+  font-size: 0.8em;
+  color: #666666;
+}
+
+.bftext:hover{
+  text-decoration: underline; 
+}
